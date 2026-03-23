@@ -1,0 +1,129 @@
+
+.welcoming {
+    text-align:center;color:white;
+    margin-top: 150px;
+    position:relative;
+    
+}
+
+.mainsubhead {
+    text-align:center;margin-top:100px;
+    color:white;
+    font-size:24px;
+    position:fixed;
+    
+}
+
+.firstpagebackground {
+    background-image: url("medievalknightillustration.jpg");
+    background-color: #f0f0f0;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.linkboxes {
+    position:fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    padding:20px 20px;
+    gap:20px;
+    font-size: 20px;
+    z-index:1000;
+    
+
+}
+.tribox {
+    background: darkblue;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 0px;
+  text-decoration:none;
+}
+.secondpagebackground {
+        background-image: url("animedragon.jpg");
+    background-color: #f0f0f0;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.doublebox {
+    position:fixed;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    padding:20px 20px;
+    gap:100px;
+    font-size: 20px;
+    z-index:1000;
+    
+}
+.categoryposition {
+    position:fixed;
+    top:2%;
+    left:7%;
+
+}
+.categorysection {
+    color:black;
+    font-size:50px;
+}
+.categorysub {
+    color:black;
+    font-size:25px;
+}
+.thirdpagebackground {
+      background-image: url("handsforging.jpg");
+    background-color: #f0f0f0;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.dualbox {
+    position:fixed;
+    top: 88%;
+    left: 52%;
+    transform: translateX(-50%);
+    display:flex;
+    padding:20px 20px;
+    gap:100px;
+    font-size: 20px;
+    z-index:1000;
+    
+}
+.subhead {
+    text-align:center;
+    margin:auto;
+    margin:80px auto;
+    max-width:840px;
+    padding:0px 20px;
+    color:white;
+    font-size:30px;
+}
+.other-works {
+ text-align: center;
+  max-width: 700px;
+  color: white;
+  font-size: 24px;
+  font-weight:bold;
+  max-width:500px;
+
+
+}
+.other-works ul {
+    list-style:none;
+    padding:0;
+}
+.content {
+     display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 40px;
+  gap: 40px;
+}
